@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400,500,700&display=swap");
 
 * {
   margin: 0;
@@ -104,10 +104,10 @@ body {
 }
 
 .cards {
-  background: #fff;
-  border: 1px solid #fff;
-  border-radius: 16px;
   padding: 16px;
+  border-radius: 24px;
+  border: 1px solid var(--neutrals-n-40, #dfe1e6);
+  background: var(--neutrals-n-0, #fff);
 }
 
 .cards-heading h1 {

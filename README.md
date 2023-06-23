@@ -54,7 +54,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Here is the link to the live experience](https://78fatemanazari.github.io/My-Portfolio/).
+- [Here is the link to the live experience](https://78fatemanazari.github.io/Portfolio/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

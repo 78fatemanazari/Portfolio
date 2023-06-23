@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400,500,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 
 * {
   margin: 0;
@@ -8,7 +8,7 @@
 
 body {
   background: var(--neutrals-n-10, #f7f7f9);
-  font-family: 'Poppins', "Open Sans", sans-serif;
+  font-family: 'Poppins', sans-serif;
   display: flex;
   flex-direction: column;
 }
@@ -201,7 +201,6 @@ div {
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
-  margin-left: 24px;
   margin-top: 114px;
 }
 
@@ -229,7 +228,6 @@ div {
   margin-top: 5px;
   cursor: pointer;
   margin-bottom: 10px;
-  margin-left: 40px;
 }
 
 .about-social-icons ul li {
@@ -415,10 +413,8 @@ div {
   background: var(--theme-1-primary-colors-1, #2230d2);
 }
 
-@media screen and (max-width:375){
-  .nav-menu{
+.nav-menu{
     display: none;
-  }
 }
 
 /*RESPONSIVE DESIGN*/
@@ -427,6 +423,10 @@ div {
 @media (width >= 768px) {
   .menu-icon{
     display: none;
+  }
+
+  .nav-menu{
+    display: block;
   }
 
   .header{

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
 * {
   margin: 0;
@@ -186,7 +186,7 @@ div {
   background: var(--theme-1-primary-colors-1, #2230d2);
 }
 
-/*ABOUT ME*/
+/* ABOUT ME */
 
 .about-container {
   width: 100%;
@@ -234,7 +234,7 @@ div {
   list-style: none;
 }
 
-.about-social-icons ul li a{
+.about-social-icons ul li a {
   margin-left: 0;
 }
 
@@ -262,7 +262,7 @@ div {
   background: var(--theme-1-primary-colors-1, #2230d2);
 }
 
-.about-languages{
+.about-languages {
   display: flex;
   justify-content: space-between;
   margin-bottom: 36px;
@@ -278,7 +278,7 @@ div {
   line-height: 24px;
 }
 
-.about-languages img{
+.about-languages img {
   width: 24px;
   height: 24px;
   align-self: end;
@@ -325,7 +325,7 @@ div {
   align-self: end;
 }
 
-/*CONTACT FORM*/
+/* CONTACT FORM */
 
 .contact-form-container {
   height: fit-content;
@@ -413,44 +413,45 @@ div {
   background: var(--theme-1-primary-colors-1, #2230d2);
 }
 
-.nav-menu{
-    display: none;
+.nav-menu {
+  display: none;
 }
 
-/*RESPONSIVE DESIGN*/
-/*DESKTOP VERSION*/
+/* RESPONSIVE DESIGN */
+
+/* DESKTOP VERSION */
 
 @media (width >= 768px) {
-  .menu-icon{
+  .menu-icon {
     display: none;
   }
 
-  .nav-menu{
+  .nav-menu {
     display: block;
   }
 
-  .header{
+  .header {
     width: 100%;
     position: fixed;
     padding: 0;
   }
 
-  .navbar{
+  .navbar {
     display: flex;
     justify-content: space-between;
     margin: 16px 143px;
   }
 
-  .nav-menu ul{
+  .nav-menu ul {
     display: flex;
     gap: 32px;
   }
 
-  .nav-menu ul li{
+  .nav-menu ul li {
     list-style: none;
   }
 
-  .nav-menu ul li a{
+  .nav-menu ul li a {
     text-decoration: none;
     color: var(--neutrals-n-600, #344563);
     text-align: center;
@@ -459,7 +460,7 @@ div {
     line-height: 20px;
   }
 
-  .headline-container{
+  .headline-container {
     background-image: url(./images/desktop-bg.svg);
     background-repeat: no-repeat;
     background-position: center;
@@ -468,7 +469,7 @@ div {
     padding-bottom: 10%;
   }
 
-  .headline-heading h1{
+  .headline-heading h1 {
     color: var(--theme-1-neutrals-1, #091e42);
     font-size: 48px;
     font-weight: 700;
@@ -478,7 +479,7 @@ div {
     margin-left: 260px;
   }
 
-  .headline-para p{
+  .headline-para p {
     color: var(--theme-1-neutrals-3, #344563);
     font-size: 20px;
     line-height: 28px;
@@ -486,75 +487,75 @@ div {
     margin-right: 260px;
   }
 
-  .headline-link p{
+  .headline-link p {
     margin-left: 260px;
   }
 
-  .social-icons{
+  .social-icons {
     margin-left: 240px;
     margin-top: 10px;
     margin-bottom: 289px;
   }
 
-  .cards-container{
+  .cards-container {
     display: grid;
     grid-template-columns: 1fr;
   }
 
-  .cards{
+  .cards {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 0 142px;
   }
 
-  .cards:nth-child(3) .cards-img{
+  .cards:nth-child(3) .cards-img {
     grid-column: 2 / 3;
     grid-row: 1 / span2;
   }
 
-  .cards-img img{
+  .cards-img img {
     width: 100%;
     padding: 5%;
   }
 
-  .cards-heading{
+  .cards-heading {
     margin-top: 48px;
     margin-left: 48px;
     padding: 5%;
   }
 
-  .about-container{
+  .about-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 5%;
   }
 
-  .about-section-one{
+  .about-section-one {
     margin-left: 143px;
   }
 
-  .about-section-one h3{
+  .about-section-one h3 {
     margin-left: 0;
   }
 
-  .about-section-one p{
+  .about-section-one p {
     margin-bottom: 20px;
     margin-right: 24px;
   }
 
-  .about-social-icons ul{
+  .about-social-icons ul {
     margin: 20px 0;
   }
 
-  .about-section-two{
+  .about-section-two {
     margin-top: 55px;
   }
 
-  .languages-container{
+  .languages-container {
     display: flex;
   }
 
-  .languages{
+  .languages {
     display: flex;
     width: 122px;
     padding: 12px 12px 20px 12px;
@@ -570,25 +571,16 @@ div {
     background-position: center;
   }
 
-  .contact-form p{
+  .contact-form p {
     margin: 0 35%;
   }
 
-  .form{
+  .form {
     margin: 3% 30% 0 30%;
   }
 
-  .contact-form button{
+  .contact-form button {
     margin-left: 46%;
     margin-bottom: 127px;
   }
-
- 
-
-
-
-
-
-
-
 }

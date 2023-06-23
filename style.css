@@ -26,7 +26,7 @@ body {
   align-items: center;
 }
 
-.navbar .my-logo{
+.navbar .my-logo {
   color: var(--primary-b-400, #6070ff);
   font-size: 18px;
   font-weight: 700;
@@ -38,22 +38,22 @@ body {
   text-decoration: none;
 }
 
-.nav-menu{
+.nav-menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 30px;
 }
 
-@media screen and (max-width:375px){
-  .hamburger{
+@media screen and (max-width: 375px) {
+  .hamburger {
     display: block;
     cursor: pointer;
     margin-right: 24px;
     margin-top: 12px;
   }
 
-  .bar{
+  .bar {
     display: block;
     width: 25px;
     height: 3px;
@@ -61,21 +61,21 @@ body {
     background: var(--primary-b-400, #6070ff);
   }
 
-  .hamburger.active .bar:nth-child(2){
+  .hamburger.active .bar:nth-child(2) {
     opacity: 0;
   }
 
-  .hamburger.active .bar:nth-child(1){
+  .hamburger.active .bar:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
     background-color: azure;
   }
 
-  .hamburger.active .bar:nth-child(3){
+  .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
     background-color: azure;
   }
 
-  .nav-menu{
+  .nav-menu {
     position: fixed;
     left: -100%;
     top: 0;
@@ -91,15 +91,15 @@ body {
     transition: 0.3s;
   }
 
-  .nav-item{
+  .nav-item {
     list-style: none;
   }
 
-  .nav-menu.active{
+  .nav-menu.active {
     left: 0;
   }
 
-  .nav-link{
+  .nav-link {
     text-decoration: none;
     color: var(--theme-1-neutrals-11, #fff);
     font-size: 32px;

@@ -583,4 +583,49 @@ div {
     margin-left: 46%;
     margin-bottom: 127px;
   }
+
+/*Animation & Transition
+
+  .fade-in-text{
+    animation: fadeIn ease-out 3s;
+  }
+
+  @keyframes fadeIn {
+    from {
+      transform: translateY(-500%);
+    }
+    to {
+      transform: translateY(1%);
+    }
+  }
+
+  .fade-out-text{
+    animation: para ease-in 3s;
+  }
+
+  @keyframes para {
+    from {
+      opacity: 0;
+    }
+    50%{
+      opacity: 20%;
+    }
+    to {
+      opacity: 100%;
+    }
+  }
+
+  .fade-in-out-text{
+    animation: icons ease-in-out 3s;
+  }
+
+  @keyframes icons {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  */
 }

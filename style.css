@@ -26,20 +26,86 @@ body {
   align-items: center;
 }
 
-.logo p {
+.navbar .my-logo{
   color: var(--primary-b-400, #6070ff);
   font-size: 18px;
   font-weight: 700;
   line-height: 20px;
   text-align: center;
   margin-left: 12px;
+  margin-top: 12px;
   padding: 10px 12px;
+  text-decoration: none;
 }
 
-.menu-icon img {
-  margin-right: 24px;
-  padding: 8px;
-  vertical-align: middle;
+.nav-menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+@media screen and (max-width:375px){
+  .hamburger{
+    display: block;
+    cursor: pointer;
+    margin-right: 24px;
+    margin-top: 12px;
+  }
+
+  .bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    background: var(--primary-b-400, #6070ff);
+  }
+
+  .hamburger.active .bar:nth-child(2){
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+    background-color: azure;
+  }
+
+  .hamburger.active .bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+    background-color: azure;
+  }
+
+  .nav-menu{
+    position: fixed;
+    left: -100%;
+    top: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 28px;
+    padding-top: 62px;
+    padding-bottom: 260px;
+    mix-blend-mode: multiply;
+    background: var(--theme-1-primary-colors-2, #6070ff);
+    width: 100%;
+    backdrop-filter: blur(0.7rem);
+    transition: 0.3s;
+  }
+
+  .nav-item{
+    list-style: none;
+  }
+
+  .nav-menu.active{
+    left: 0;
+  }
+
+  .nav-link{
+    text-decoration: none;
+    color: var(--theme-1-neutrals-11, #fff);
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 44px;
+  }
 }
 
 /* HEADLINE */
@@ -413,19 +479,11 @@ div {
   background: var(--theme-1-primary-colors-1, #2230d2);
 }
 
-.nav-menu {
-  display: none;
-}
-
 /* RESPONSIVE DESIGN */
 
 /* DESKTOP VERSION */
 
 @media (width >= 768px) {
-  .menu-icon {
-    display: none;
-  }
-
   .nav-menu {
     display: block;
   }
@@ -442,16 +500,17 @@ div {
     margin: 16px 143px;
   }
 
-  .nav-menu ul {
+  .navbar ul {
     display: flex;
     gap: 32px;
+    margin-left: 796px;
   }
 
-  .nav-menu ul li {
+  .navbar ul li {
     list-style: none;
   }
 
-  .nav-menu ul li a {
+  .navbar ul li a {
     text-decoration: none;
     color: var(--neutrals-n-600, #344563);
     text-align: center;

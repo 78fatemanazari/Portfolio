@@ -584,9 +584,9 @@ div {
     margin-bottom: 127px;
   }
 
-/*Animation & Transition*/
+  /* Animation & Transition */
 
-  .fade-in-text{
+  .fade-in-text {
     animation: fadeIn ease-out 3s;
   }
 
@@ -594,12 +594,13 @@ div {
     from {
       transform: translateY(-500%);
     }
+
     to {
       transform: translateY(1%);
     }
   }
 
-  .fade-out-text{
+  .fade-out-text {
     animation: para ease-in 3s;
   }
 
@@ -607,15 +608,17 @@ div {
     from {
       opacity: 0;
     }
-    50%{
+
+    50% {
       opacity: 20%;
     }
+
     to {
       opacity: 100%;
     }
   }
 
-  .fade-in-out-text{
+  .fade-in-out-text {
     animation: icons ease-in-out 3s;
   }
 
@@ -623,6 +626,7 @@ div {
     from {
       transform: translateX(-100%);
     }
+
     to {
       transform: translateX(0);
     }

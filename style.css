@@ -584,7 +584,7 @@ div {
     margin-bottom: 127px;
   }
 
-/*Animation & Transition
+/*Animation & Transition*/
 
   .fade-in-text{
     animation: fadeIn ease-out 3s;
@@ -627,5 +627,4 @@ div {
       transform: translateX(0);
     }
   }
-  */
 }

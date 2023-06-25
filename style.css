@@ -382,7 +382,7 @@ div {
   color: var(--neutrals-n-60, #b3bac5);
   font-size: 15px;
   line-height: 24px;
-  padding: 15px 34px 15px 16px;
+  padding: 15px 34px 111px 16px;
   margin: 0 24px;
 }
 
@@ -400,7 +400,7 @@ div {
   cursor: pointer;
   margin-left: 24px;
   margin-top: 22px;
-  margin-bottom: 45px;
+  margin-bottom: 109px;
 }
 
 .contact-form button:hover {

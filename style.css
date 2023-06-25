@@ -448,7 +448,7 @@ div {
   color: var(--neutrals-n-60, #b3bac5);
   font-size: 15px;
   line-height: 24px;
-  padding: 15px 34px 15px 16px;
+  padding: 15px 34px 56px 16px;
   margin: 0 24px;
 }
 
@@ -477,6 +477,16 @@ div {
 .contact-form button:active {
   color: #fff;
   background: var(--theme-1-primary-colors-1, #2230d2);
+}
+
+.error {
+  display: none;
+  color: rgb(190, 54, 54);
+  width: 50%;
+  position: relative;
+  bottom: 112px;
+  margin-left: 25px;
+  font-size: 12px;
 }
 
 /* RESPONSIVE DESIGN */
@@ -652,9 +662,23 @@ div {
     margin: 3% 30% 0 30%;
   }
 
+  .form textarea{
+  padding: 15px 34px 111px 16px;
+  }
+
   .contact-form button {
     margin-left: 46%;
     margin-bottom: 127px;
+  }
+
+  .error {
+    display: none;
+    color: rgb(190, 54, 54);
+    width: 37%;
+    margin: 0 auto;
+    position: relative;
+    bottom: 180px;
+    font-size: 16px;
   }
 
   /* Animation & Transition */

@@ -275,7 +275,7 @@
     </section>
 <!--START CONTACT FORM SECTION-->
     <section id="contact" class="contact-form-container">
-        <form action="https://formspree.io/f/xvonjbjk" method="post" class="contact-form">
+        <form id="form" action="https://formspree.io/f/xvonjbjk" method="post" class="contact-form">
             <h1>Contact me</h1>
             <p>
             If you have an application you are interested in developing, 
@@ -288,8 +288,10 @@
                 <textarea name="message" id="message" maxlength="500" placeholder="Write your message here..." required></textarea>
             </div>
             <button type="submit">Get in touch</button>
+            <div id="error" class="error">Not sent, Invalid email!</div>
         </form>
     </section>
     <script src="script.js"></script>
+    <script src="form.js"></script>
 </body>
 </html>

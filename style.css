@@ -83,7 +83,7 @@ body {
     align-items: flex-start;
     padding-left: 28px;
     padding-top: 62px;
-    padding-bottom: 260px;
+    padding-bottom: 360px;
     mix-blend-mode: multiply;
     background: var(--theme-1-primary-colors-2, #6070ff);
     width: 100%;

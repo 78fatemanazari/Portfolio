@@ -176,7 +176,7 @@ body {
   background: var(--neutrals-n-0, #fff);
 }
 
-.cards-heading h1 {
+.cards-heading h3 {
   color: var(--neutrals-n-800, #172b4d);
   font-size: 32px;
   font-weight: 700;

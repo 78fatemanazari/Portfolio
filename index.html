@@ -13,7 +13,7 @@
                 <a class="my-logo" href="/">My Logo</a>
                 <ul class="nav-menu">
                     <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                        <a class="nav-link" href="#cards-container">Portfolio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#about">About</a>
@@ -83,13 +83,13 @@
         </div>
     </section>
 <!--START WORKS SECTION-->
-    <section id="portfolio" class="cards-container">
+    <section id="cards-container">
         <div class="cards">
             <div class="cards-img">
                 <img src="images/card1.png" alt="card1 img">
             </div> 
             <div class="cards-heading">
-                <h1>Tonic</h1>
+                <h3>Tonic</h3>
             <div class="cards-details">
                 <h6>Canopy</h6>
                 <div>●</div>
@@ -116,8 +116,8 @@
                 <img src="images/card2.png" alt="card2 img">
             </div>
             <div class="cards-heading">
-                <h1>Multi-Post<br>
-                    Stories</h1>
+                <h3>Multi-Post<br>
+                    Stories</h3>
             <div class="cards-details">
                 <h6>Canopy</h6>
                 <div>●</div>
@@ -144,7 +144,7 @@
                 <img src="images/card3.png" alt="card3 img">
             </div>
             <div class="cards-heading">
-                <h1>Tonic</h1>
+                <h3>Tonic</h3>
             <div class="cards-details">
                 <h6>Canopy</h6>
                 <div>●</div>
@@ -173,8 +173,8 @@
                 <img src="images/card4.png" alt="card4 img">
             </div>
             <div class="cards-heading">
-                <h1>Multi-Post<br>
-                    Stories</h1>
+                <h3>Multi-Post<br>
+                    Stories</h3>
             <div class="cards-details">
                 <h6>Canopy</h6>
                 <div>●</div>
@@ -275,20 +275,20 @@
     </section>
 <!--START CONTACT FORM SECTION-->
     <section id="contact" class="contact-form-container">
-        <form action="https://formspree.io/f/xvonjbjk" method="post" class="contact-form">
+        <div action="https://formspree.io/f/xvonjbjk" method="post" class="contact-form">
             <h1>Contact me</h1>
             <p>
             If you have an application you are interested in developing, 
             a feature that you need built or a project that needs coding. 
             I’d love to help with it!
             </p>
-            <div class="form">
-                <input type="text" id="name" name="user-name" maxlength="30" required placeholder="Lorem Ipsum">
-                <input type="email" id="email" name="user-email" required placeholder="loremipsum@gmail.com">
+            <form id="myForm" class="form">
+                <input type="text" id="name" name="user-name" maxlength="30" placeholder="Lorem Ipsum" required>
+                <input type="email" id="email" name="user-email" placeholder="loremipsum@gmail.com"required>
                 <textarea name="message" id="message" maxlength="500" placeholder="Write your message here..." required></textarea>
-            </div>
+            </form>
             <button type="submit">Get in touch</button>
-        </form>
+        </div>
     </section>
     <script src="script.js"></script>
 </body>

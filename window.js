@@ -129,11 +129,11 @@ document.querySelector('.popup-cards-container').innerHTML = popUpCardHhtml;
         }
     }
 }
-
+/*
 cardsContainerSection.addEventListener('click', Selection);
 const popUpWindow = document.querySelector('.popup-cards-container')
 function openWindow(){
     popUpWindow.classList.add('open-window');
 }
-
+*/
 

@@ -1,49 +1,49 @@
 const cards = [
-    {
-      id: 1,
-      imageSource: './images/card1.png',
-      titleOfProjects: 'Tonic',
-      theClient: 'CANOPY',
-      theRole: 'Back End Dev',
-      theYear: '2015',
-      description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-      longDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it 1960s.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.',
-    },
-    {
-      id: 2,
-      imageSource: './images/card2.png',
-      titleOfProjects: 'Multi-Post Stories',
-      theClient: 'CANOPY',
-      theRole: 'Back End Dev',
-      theYear: '2015',
-      description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-      longDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it 1960s.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.',
-    },
-    {
-      id: 3,
-      imageSource: './images/card3.png',
-      titleOfProjects: 'Tonic',
-      theClient: 'CANOPY',
-      theRole: 'Back End Dev',
-      theYear: '2015',
-      description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-      longDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it 1960s.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.',
-    },
-    {
-      id: 4,
-      imageSource: './images/card4.png',
-      titleOfProjects: 'Multi-Post Stories',
-      theClient: 'CANOPY',
-      theRole: 'Back End Dev',
-      theYear: '2015',
-      description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-      longDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it 1960s.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.',
-    },
-  ];
+  {
+    id: 1,
+    imageSource: './images/card1.png',
+    titleOfProjects: 'Tonic',
+    theClient: 'CANOPY',
+    theRole: 'Back End Dev',
+    theYear: '2015',
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    longDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it 1960s.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.',
+  },
+  {
+    id: 2,
+    imageSource: './images/card2.png',
+    titleOfProjects: 'Multi-Post Stories',
+    theClient: 'CANOPY',
+    theRole: 'Back End Dev',
+    theYear: '2015',
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    longDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it 1960s.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.',
+  },
+  {
+    id: 3,
+    imageSource: './images/card3.png',
+    titleOfProjects: 'Tonic',
+    theClient: 'CANOPY',
+    theRole: 'Back End Dev',
+    theYear: '2015',
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    longDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it 1960s.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.',
+  },
+  {
+    id: 4,
+    imageSource: './images/card4.png',
+    titleOfProjects: 'Multi-Post Stories',
+    theClient: 'CANOPY',
+    theRole: 'Back End Dev',
+    theYear: '2015',
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    longDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it 1960s.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.',
+  },
+];
 
-  let cardHtml = '';
-  cards.forEach((project) =>  {
-    cardHtml += `
+let cardHtml = '';
+cards.forEach((project) => {
+  cardHtml += `
     <div class="cards-container">
         <div class="cards">
             <div class="cards-img">
@@ -71,20 +71,22 @@ const cards = [
                 <button class="cards-button" type="submit" id='${project.id}'>See project</button>
             </div>
         </div>
-    </div>`
+    </div>`;
 });
 
 const cardsContainerSection = document.getElementById('cards-container-section');
 cardsContainerSection.innerHTML = cardHtml;
 
-function Selection(e){
-    if (e.target.id !== null){
-        const theItem = cards.find((projects) => {
-            return projects.id == e.target.id
-        })
+const popUpWindow = document.querySelector('.popup-cards-container');
+const openWindow = function () {
+  popUpWindow.classList.add('open-window');
+};
 
-        if(theItem !== undefined){
-            const popUpCardHhtml = `
+function Selection(e) {
+  if (e.target.id !== null) {
+    const theItem = cards.find((projects) => projects.id === Number(e.target.id));
+    if (theItem !== undefined) {
+      const popUpCardHhtml = `
             <div class="popup-cards">
             <div class="popup-cards-title">
                 <h2>${theItem.titleOfProjects}</h2>
@@ -118,22 +120,15 @@ function Selection(e){
                     </div>
                 </div>
             </div>
-        </div>`
-document.querySelector('.popup-cards-container').innerHTML = popUpCardHhtml;
-      openWindow ();
-      const closeWindow = document.querySelector('#close')
+        </div>`;
+      document.querySelector('.popup-cards-container').innerHTML = popUpCardHhtml;
+      openWindow();
+      const closeWindow = document.querySelector('#close');
       closeWindow.addEventListener('click', () => {
-        popUpWindow.classList.remove('open-window')
-        });
-
-        }
+        popUpWindow.classList.remove('open-window');
+      });
     }
+  }
 }
 
 cardsContainerSection.addEventListener('click', Selection);
-const popUpWindow = document.querySelector('.popup-cards-container')
-function openWindow(){
-    popUpWindow.classList.add('open-window');
-}
-
-

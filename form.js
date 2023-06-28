@@ -7,7 +7,7 @@ const form = document.getElementById('form');
 
       const email = emailInput.value;
       const isLowerCase = email === email.toLowerCase();
-/*
+
       if (isLowerCase) {
         // Validation OK, submit the form
         form.submit();
@@ -16,5 +16,5 @@ const form = document.getElementById('form');
         errorText.style.display='block';
         errorText.textContent = 'Email must be in lowercase!';
       }
-*/
+
     });

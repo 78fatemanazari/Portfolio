@@ -575,7 +575,7 @@ div {
   color: var(--neutrals-n-60, #b3bac5);
   font-size: 15px;
   line-height: 24px;
-  padding: 15px 34px 15px 16px;
+  padding: 15px 34px 56px 16px;
   margin: 0 24px;
 }
 
@@ -604,6 +604,16 @@ div {
 .contact-form button:active {
   color: #fff;
   background: var(--theme-1-primary-colors-1, #2230d2);
+}
+
+.error {
+  display: none;
+  color: rgb(190, 54, 54);
+  width: 50%;
+  position: relative;
+  bottom: 112px;
+  margin-left: 25px;
+  font-size: 12px;
 }
 
 /* RESPONSIVE DESIGN */
@@ -779,136 +789,13 @@ div {
     margin: 3% 30% 0 30%;
   }
 
+  .form textarea {
+    padding: 15px 34px 111px 16px;
+  }
+
   .contact-form button {
     margin-left: 46%;
     margin-bottom: 127px;
-  }
-
-  /* Popup Window */
-
-  .popup-cards-container {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    padding: 5px;
-    z-index: 99999;
-    background-color: #c1c7d0;
-  }
-
-  .popup-cards {
-    border-radius: 16px;
-    border: 1px solid var(--neutrals-n-30-l, #ebecf0);
-    background: var(--white, #fff);
-    box-shadow: 0 48px 48px 0 rgba(37, 47, 137, 0.08);
-    margin: 0 24px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 12px;
-  }
-
-  .open-window {
-    display: block;
-  }
-
-  .popup-cards-title {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .popup-cards-title h2 {
-    color: var(--theme-1-neutrals-1, #091e42);
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 52px;
-    margin-top: 24px;
-    margin-left: 24px;
-  }
-
-  .popup-cards-title img {
-    width: 24px;
-    height: 24px;
-    margin-top: 40px;
-    margin-right: 32px;
-  }
-
-  .popup-cards-details {
-    display: flex;
-    gap: 2%;
-    margin-left: 30px;
-    align-items: flex-end;
-  }
-
-  .popup-cards-details h6:nth-child(1) {
-    color: var(--neutrals-n-600, #344563);
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 20px;
-  }
-
-  .popup-cards-img img {
-    margin-left: 30%;
-    width: 30%;
-  }
-
-  .popup-cards-description {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 111px;
-    margin-right: 32px;
-  }
-
-  .popup-cards-para p {
-    color: var(--neutrals-n-600, #344563);
-    font-size: 16px;
-    line-height: 30px;
-    margin-left: 24px;
-    margin-right: 32px;
-  }
-
-  .popup-cards-tech ul {
-    display: flex;
-    gap: 8px;
-    padding-right: 32px;
-    margin-bottom: 40px;
-  }
-
-  .popup-cards-tech ul li {
-    list-style: none;
-    color: var(--primary-b-400, #6070ff);
-    font-size: 12px;
-    font-weight: 500;
-    line-height: 16px;
-    letter-spacing: 0.36px;
-    border-radius: 8px;
-    background: var(--primary-b-50, #ebebff);
-    padding: 4px 12px;
-  }
-
-  .popup-cards-button {
-    display: flex;
-    gap: 10px;
-  }
-
-  .popup-cards-button button {
-    color: var(--primary-b-500, #396df2);
-    text-align: center;
-    font-size: 17px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.51px;
-    border-radius: 8px;
-    border: 1px solid var(--primary-b-400, #6070ff);
-    padding: 12px;
-    background: #fff;
-    cursor: pointer;
-  }
-
-  .popup-cards-button button img {
-    vertical-align: middle;
   }
 
   /* Animation & Transition */

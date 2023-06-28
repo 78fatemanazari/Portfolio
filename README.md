@@ -82,7 +82,7 @@ git clone git@github.com:78fatemanazari/Portfolio.git
 
 - Navigate to the location of the folder in your machine:
 
-**``cd My-Portfolio``**
+**``cd Portfolio``**
 
 ### Install
 

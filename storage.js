@@ -29,5 +29,5 @@ function saveDataForm() {
     input.addEventListener('change', saveDataForm);
   });
   
-  window.addEventListener('load', loadFormData);
+  //window.addEventListener('load', loadFormData);
   

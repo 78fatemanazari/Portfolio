@@ -164,19 +164,19 @@ body {
     align-items: flex-end;
   }
 
-  .popup-cards-details h6:nth-child(1) {
-    color: var(--neutrals-n-600, #344563);
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 20px;
-  }
-
   .popup-cards-details h6,
   div {
     color: var(--neutrals-n-100, #7a869a);
     font-size: 13px;
     font-weight: 600;
     line-height: 16px;
+  }
+
+  .popup-cards-details h6:nth-child(1) {
+    color: var(--neutrals-n-600, #344563);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
   }
 
   .popup-cards-img img {
@@ -240,12 +240,12 @@ body {
     margin-bottom: 16px;
   }
 
-  .popup-cards-button button:hover{
+  .popup-cards-button button:hover {
     color: #fff;
     background: var(--theme-1-primary-colors-2, #6070ff);
   }
 
-  .popup-cards-button button:active{
+  .popup-cards-button button:active {
     color: #fff;
     background: var(--theme-1-primary-colors-1, #2230d2);
   }
@@ -254,15 +254,15 @@ body {
     vertical-align: middle;
   }
 
-  .popup-cards-button button .white{
+  .popup-cards-button button .white {
     display: none;
   }
 
-  .popup-cards-button button:hover .white{
+  .popup-cards-button button:hover .white {
     display: inline-block;
   }
 
-  .popup-cards-button button:hover .purple{
+  .popup-cards-button button:hover .purple {
     display: none;
   }
 }
@@ -888,13 +888,6 @@ div {
     align-items: flex-end;
   }
 
-  .popup-cards-details h6:nth-child(1) {
-    color: var(--neutrals-n-600, #344563);
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 20px;
-  }
-
   .popup-cards-details h6,
   div {
     color: var(--neutrals-n-100, #7a869a);
@@ -902,6 +895,13 @@ div {
     font-weight: 500;
     line-height: 20px;
     font-style: normal;
+  }
+
+  .popup-cards-details h6:nth-child(1) {
+    color: var(--neutrals-n-600, #344563);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
   }
 
   .popup-cards-img img {
@@ -964,12 +964,12 @@ div {
     cursor: pointer;
   }
 
-  .popup-cards-button button:hover{
+  .popup-cards-button button:hover {
     color: #fff;
     background: var(--theme-1-primary-colors-2, #6070ff);
   }
 
-  .popup-cards-button button:active{
+  .popup-cards-button button:active {
     color: #fff;
     background: var(--theme-1-primary-colors-1, #2230d2);
   }
@@ -978,15 +978,15 @@ div {
     vertical-align: middle;
   }
 
-  .popup-cards-button button .white{
+  .popup-cards-button button .white {
     display: none;
   }
 
-  .popup-cards-button button:hover .white{
+  .popup-cards-button button:hover .white {
     display: inline-block;
   }
 
-  .popup-cards-button button:hover .purple{
+  .popup-cards-button button:hover .purple {
     display: none;
   }
 

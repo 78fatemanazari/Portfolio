@@ -527,7 +527,7 @@ div {
     display: flex;
     gap: 32px;
     margin-left: 796px;
-    margin-top: 12px  ;
+    margin-top: 12px;
   }
 
   .navbar ul li {
@@ -662,8 +662,8 @@ div {
     margin: 3% 30% 0 30%;
   }
 
-  .form textarea{
-  padding: 15px 34px 111px 16px;
+  .form textarea {
+    padding: 15px 34px 111px 16px;
   }
 
   .contact-form button {

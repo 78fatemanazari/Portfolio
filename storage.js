@@ -16,7 +16,7 @@ function saveDataToStorage() {
   const formData = {
     name: input1Value,
     email: input2Value,
-    message: textareaValue
+    message: textareaValue,
   };
 
   localStorage.setItem('formData', JSON.stringify(formData));

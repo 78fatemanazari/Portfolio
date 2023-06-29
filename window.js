@@ -115,8 +115,14 @@ function Selection(e) {
                         <li>Bootstrap</li>
                     </ul>
                     <div class="popup-cards-button">
-                        <button type="submit">See live <img src="images/Icon - Export.svg" alt="export icon"></button>
-                        <button type="submit">See source <img src="images/Frame.png" alt="frame icon"></button>
+                        <button type="submit">See live 
+                          <img class="purple" src="images/Icon - Export.svg" alt="export icon">
+                          <img class="white" src="images/Icon - Export 2.svg" alt="export icon">
+                        </button>
+                        <button type="submit">See source 
+                          <img class="purple" src="images/Frame.svg" alt="frame icon">
+                          <img class="white" src="images/Frame 2.svg" alt="frame icon">
+                        </button>
                     </div>
                 </div>
             </div>

@@ -240,8 +240,30 @@ body {
     margin-bottom: 16px;
   }
 
+  .popup-cards-button button:hover{
+    color: #fff;
+    background: var(--theme-1-primary-colors-2, #6070ff);
+  }
+
+  .popup-cards-button button:active{
+    color: #fff;
+    background: var(--theme-1-primary-colors-1, #2230d2);
+  }
+
   .popup-cards-button button img {
     vertical-align: middle;
+  }
+
+  .popup-cards-button button .white{
+    display: none;
+  }
+
+  .popup-cards-button button:hover .white{
+    display: inline-block;
+  }
+
+  .popup-cards-button button:hover .purple{
+    display: none;
   }
 }
 
@@ -942,8 +964,30 @@ div {
     cursor: pointer;
   }
 
+  .popup-cards-button button:hover{
+    color: #fff;
+    background: var(--theme-1-primary-colors-2, #6070ff);
+  }
+
+  .popup-cards-button button:active{
+    color: #fff;
+    background: var(--theme-1-primary-colors-1, #2230d2);
+  }
+
   .popup-cards-button button img {
     vertical-align: middle;
+  }
+
+  .popup-cards-button button .white{
+    display: none;
+  }
+
+  .popup-cards-button button:hover .white{
+    display: inline-block;
+  }
+
+  .popup-cards-button button:hover .purple{
+    display: none;
   }
 
   /* Animation & Transition */

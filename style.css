@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400,500,700&display=swap");
 
 html {
-  scroll-behavior: smooth; 
+  scroll-behavior: smooth;
 }
 
 * {
@@ -21,8 +21,6 @@ body {
   width: 100%;
   background: #fff;
 }
-
-/* NAVBAR */
 
 .navbar {
   display: flex;
@@ -327,7 +325,6 @@ body {
 /* CARDS */
 
 .cards-container {
-  height: fit-content;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(327px, 1fr));
   gap: 5.5rem;
@@ -559,7 +556,6 @@ div {
 /* CONTACT FORM */
 
 .contact-form-container {
-  height: fit-content;
   background: #fff;
 }
 

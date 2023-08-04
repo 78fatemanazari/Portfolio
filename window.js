@@ -1,7 +1,7 @@
 const cards = [
   {
     id: 1,
-    imageSource: './images/card1.png',
+    imageSource: './images/1.PNG',
     titleOfProjects: 'Tonic',
     theClient: 'CANOPY',
     theRole: 'Back End Dev',
@@ -115,14 +115,18 @@ function Selection(e) {
                         <li>Bootstrap</li>
                     </ul>
                     <div class="popup-cards-button">
+                        <a href="https://78fatemanazari.github.io/Capstone-project/">
                         <button type="submit">See live 
                           <img class="purple" src="images/Icon - Export.svg" alt="export icon">
                           <img class="white" src="images/Icon - Export 2.svg" alt="export icon">
                         </button>
+                        </a>
+                        <a href="https://github.com/78fatemanazari/Capstone-project">
                         <button type="submit">See source 
                           <img class="purple" src="images/Frame.svg" alt="frame icon">
                           <img class="white" src="images/Frame 2.svg" alt="frame icon">
                         </button>
+                        </a>
                     </div>
                 </div>
             </div>

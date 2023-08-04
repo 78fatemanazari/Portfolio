@@ -832,15 +832,15 @@ div {
     margin-bottom: 127px;
   }
 
-   .error {
-    display: none;
-    color: rgb(190, 54, 54);
-    width: 50%;
-    position: relative;
-    bottom: 190px;
-    margin-left: 32%;
-    font-size: 12px;
-  }
+  .error {
+  display: none;
+  color: rgb(190, 54, 54);
+  width: 50%;
+  position: relative;
+  bottom: 190px;
+  margin-left: 32%;
+  font-size: 12px;
+}
 
   /* Popup Window */
 

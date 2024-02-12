@@ -1,7 +1,7 @@
 const cards = [
   {
     id: 1,
-    imageSource: './images/1.PNG',
+    imageSource: './images/card2.png',
     titleOfProjects: 'Tonic',
     theClient: 'CANOPY',
     theRole: 'Back End Dev',
